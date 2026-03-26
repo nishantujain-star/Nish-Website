@@ -20,9 +20,9 @@ const Programs = () => {
       {/* Hero Section */}
       <section className="hero-section min-h-[60vh]">
         <div className="container mx-auto max-w-4xl">
-          <h1 className="heading-1 mb-6">Powerful Programs, Seamless Execution</h1>
+          <h1 className="heading-1 mb-6">One Platform. Everything You Need.</h1>
           <p className="body-large" style={{ color: 'var(--text-secondary)' }}>
-            Everything you need to launch, manage, and optimize loyalty and incentive programs that deliver measurable results
+            Set targets. Track sales. Reward dealers. Run campaigns. See results—all in one place.
           </p>
         </div>
       </section>
@@ -77,9 +77,9 @@ const Programs = () => {
       <section className="section-padding" style={{ background: 'var(--bg-section)' }}>
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12">
-            <h2 className="heading-2 mb-4">Why Choose Smart Rewards Platform?</h2>
+            <h2 className="heading-2 mb-4">Why Companies Choose Smart Rewards</h2>
             <p className="body-large" style={{ color: 'var(--text-secondary)' }}>
-              A comprehensive solution built for the Indian market
+              Simple to use. Built for India. Actually works.
             </p>
           </div>
 
@@ -90,7 +90,7 @@ const Programs = () => {
               </div>
               <h3 className="heading-3 text-lg mb-3">Easy to Use</h3>
               <p className="body-small">
-                Intuitive interface designed for Indian dealers and distributors with minimal training required
+                Your dealers don't need training. They sign up in 2 minutes and start earning rewards immediately.
               </p>
             </div>
 
@@ -98,9 +98,9 @@ const Programs = () => {
               <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style={{ background: 'var(--accent-wash)' }}>
                 <Target size={32} style={{ color: 'var(--accent-text)' }} />
               </div>
-              <h3 className="heading-3 text-lg mb-3">Flexible & Scalable</h3>
+              <h3 className="heading-3 text-lg mb-3">Works for Your Business</h3>
               <p className="body-small">
-                Customize programs to your needs and scale effortlessly as your network grows
+                Customize targets, rewards, and rules. Launch a program in one week, not three months.
               </p>
             </div>
 
@@ -108,9 +108,9 @@ const Programs = () => {
               <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style={{ background: 'var(--accent-wash)' }}>
                 <BarChart3 size={32} style={{ color: 'var(--accent-text)' }} />
               </div>
-              <h3 className="heading-3 text-lg mb-3">Data-Driven Insights</h3>
+              <h3 className="heading-3 text-lg mb-3">See Real Results</h3>
               <p className="body-small">
-                Real-time analytics and reporting to measure program effectiveness and ROI
+                Track sales increase, dealer participation, and program ROI from day one.
               </p>
             </div>
           </div>
@@ -120,12 +120,12 @@ const Programs = () => {
       {/* CTA Section */}
       <section className="section-padding">
         <div className="container mx-auto text-center">
-          <h2 className="heading-2 mb-4">See Our Platform in Action</h2>
+          <h2 className="heading-2 mb-4">See the Platform in Action</h2>
           <p className="body-large mb-8 max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-            Book a personalized demo to explore how our programs can work for your business
+            Book a demo and we'll walk you through exactly how it works for your business
           </p>
           <Link to="/contact" className="btn-primary text-lg px-8">
-            Request a Demo
+            Book a Demo
             <ArrowRight size={20} className="ml-2" />
           </Link>
         </div>

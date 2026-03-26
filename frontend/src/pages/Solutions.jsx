@@ -9,9 +9,9 @@ const Solutions = () => {
       {/* Hero Section */}
       <section className="hero-section min-h-[60vh]">
         <div className="container mx-auto max-w-4xl">
-          <h1 className="heading-1 mb-6">Solutions for Every Channel Partner</h1>
+          <h1 className="heading-1 mb-6">Programs That Increase Dealer Sales</h1>
           <p className="body-large" style={{ color: 'var(--text-secondary)' }}>
-            Tailored loyalty and incentive programs that drive engagement, performance, and growth across your entire network
+            Whether you sell through dealers, distributors, or sales agents—we have a program that works for you
           </p>
         </div>
       </section>
@@ -87,12 +87,12 @@ const Solutions = () => {
       {/* CTA Section */}
       <section className="section-padding" style={{ background: 'var(--bg-section)' }}>
         <div className="container mx-auto text-center">
-          <h2 className="heading-2 mb-4">Which Solution is Right for You?</h2>
+          <h2 className="heading-2 mb-4">Not Sure Which Program You Need?</h2>
           <p className="body-large mb-8 max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-            Let's discuss your specific needs and design a program that drives results
+            Book a demo and we'll help you choose the right solution for your business
           </p>
           <Link to="/contact" className="btn-primary text-lg px-8">
-            Schedule a Consultation
+            Book a Demo
             <ArrowRight size={20} className="ml-2" />
           </Link>
         </div>

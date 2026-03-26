@@ -26,7 +26,7 @@ const About = () => {
       {/* Our Story */}
       <section className="section-padding">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="heading-2 mb-6 text-center">Our Story</h2>
+          <h2 className="heading-2 mb-6 text-center">How We Started</h2>
           <p className="body-large text-center" style={{ color: 'var(--text-body)' }}>
             {aboutData.story}
           </p>
@@ -53,9 +53,9 @@ const About = () => {
       <section className="section-padding">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="heading-2 mb-4">Our Values</h2>
+            <h2 className="heading-2 mb-4">What We Stand For</h2>
             <p className="body-large" style={{ color: 'var(--text-secondary)' }}>
-              The principles that guide everything we do
+              Four principles that guide how we work
             </p>
           </div>
 
@@ -84,7 +84,7 @@ const About = () => {
       <section className="section-padding" style={{ background: 'var(--bg-section)' }}>
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12">
-            <h2 className="heading-2 mb-4">Why Choose Smart Rewards?</h2>
+            <h2 className="heading-2 mb-4">Why Work With Us?</h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -95,9 +95,9 @@ const About = () => {
               >
                 <Target size={32} style={{ color: 'var(--accent-text)' }} />
               </div>
-              <h3 className="heading-3 text-lg mb-3">India-Focused</h3>
+              <h3 className="heading-3 text-lg mb-3">We Know India</h3>
               <p className="body-small">
-                Built specifically for the Indian market with deep understanding of local business practices
+                We've worked with dealers from Mumbai to Ludhiana. We understand how Indian businesses actually work.
               </p>
             </div>
 
@@ -108,9 +108,9 @@ const About = () => {
               >
                 <Users size={32} style={{ color: 'var(--accent-text)' }} />
               </div>
-              <h3 className="heading-3 text-lg mb-3">Proven Expertise</h3>
+              <h3 className="heading-3 text-lg mb-3">Proven Results</h3>
               <p className="body-small">
-                10+ years of experience delivering results for 500+ loyalty programs across industries
+                Over 450 companies trust us with their dealer programs. 92% stay with us year after year.
               </p>
             </div>
 
@@ -121,9 +121,9 @@ const About = () => {
               >
                 <Award size={32} style={{ color: 'var(--accent-text)' }} />
               </div>
-              <h3 className="heading-3 text-lg mb-3">End-to-End Support</h3>
+              <h3 className="heading-3 text-lg mb-3">Support When You Need It</h3>
               <p className="body-small">
-                From program design to implementation and ongoing optimization - we're with you every step
+                Dedicated account manager. Direct phone support. We respond to issues within 4 hours, not 4 days.
               </p>
             </div>
           </div>
@@ -133,12 +133,12 @@ const About = () => {
       {/* CTA Section */}
       <section className="section-padding">
         <div className="container mx-auto text-center">
-          <h2 className="heading-2 mb-4">Let's Build Something Great Together</h2>
+          <h2 className="heading-2 mb-4">Ready to Get Started?</h2>
           <p className="body-large mb-8 max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-            Partner with Smart Rewards to transform your channel network
+            Book a demo and see if Smart Rewards is right for your business
           </p>
           <Link to="/contact" className="btn-primary text-lg px-8">
-            Get Started Today
+            Book a Demo
             <ArrowRight size={20} className="ml-2" />
           </Link>
         </div>

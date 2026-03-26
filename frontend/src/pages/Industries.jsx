@@ -17,74 +17,74 @@ const Industries = () => {
     {
       id: 1,
       name: 'Automotive',
-      description: 'Drive dealer performance and service excellence',
+      description: 'Increase vehicle sales and spare parts orders from dealers',
       details:
-        'Engage your dealer network with loyalty programs that boost vehicle sales, parts purchases, and service revenue. Track dealer performance and reward top performers.',
+        'Get dealers to sell more cars and recommend genuine spare parts. Run monthly sales contests. Reward dealers who achieve targets and service advisors who increase parts sales.',
       icon: Car,
-      useCases: ['Dealer incentive schemes', 'Service center programs', 'Spare parts loyalty']
+      useCases: ['Vehicle sales targets', 'Genuine parts push', 'Service retention programs']
     },
     {
       id: 2,
       name: 'Consumer Electronics',
-      description: 'Boost retail sales and product launches',
+      description: 'Get retailers to display and sell more of your products',
       details:
-        'Motivate retailers to push your products through targeted incentives and promotional campaigns. Perfect for new product launches and seasonal sales drives.',
+        'Stop losing shelf space to competitors. Reward retailers for displaying your products prominently and pushing new launches. Track sales and reward performance in real-time.',
       icon: Smartphone,
-      useCases: ['Retailer loyalty programs', 'Product launch campaigns', 'Demo & display incentives']
+      useCases: ['Retail display incentives', 'New product launch rewards', 'Sales target programs']
     },
     {
       id: 3,
       name: 'FMCG & Consumer Goods',
-      description: 'Increase distributor reach and market penetration',
+      description: 'Grow distributor orders and expand into new markets',
       details:
-        'Build strong relationships with distributors, wholesalers, and retailers. Drive consistent offtake and market share growth through strategic incentives.',
+        'Increase distributor orders month-on-month. Reward them for expanding into new towns and achieving volume targets. Track secondary sales and incentivize repeat orders.',
       icon: ShoppingCart,
-      useCases: ['Distributor loyalty', 'Volume-based incentives', 'Market expansion rewards']
+      useCases: ['Volume growth incentives', 'New market expansion rewards', 'Repeat order bonuses']
     },
     {
       id: 4,
       name: 'Building Materials',
-      description: 'Engage contractors and dealer networks',
+      description: 'Influence contractor specifications and dealer purchases',
       details:
-        'Reach architects, contractors, and dealers who influence buying decisions. Track projects and reward specifications and purchases.',
+        'Get contractors to specify your brand in projects. Track which contractor recommended your product and reward them. Increase dealer sales through contractor influence.',
       icon: Home,
-      useCases: ['Contractor programs', 'Dealer loyalty', 'Architect engagement']
+      useCases: ['Contractor specification programs', 'Dealer offtake incentives', 'Project tracking rewards']
     },
     {
       id: 5,
       name: 'Pharmaceuticals',
-      description: 'Enhance chemist and distributor loyalty',
+      description: 'Drive chemist recommendations and stockist orders',
       details:
-        'Engage chemists, stockists, and distributors with compliant loyalty programs. Drive prescription tracking and inventory management.',
+        'Make chemists recommend your brand over generics. Reward stockists for maintaining inventory levels and achieving distribution targets across their territory.',
       icon: Pill,
-      useCases: ['Chemist loyalty', 'Stockist programs', 'Medical rep incentives']
+      useCases: ['Chemist recommendation programs', 'Stockist volume incentives', 'Territory expansion rewards']
     },
     {
       id: 6,
       name: 'Financial Services',
-      description: 'Incentivize agent networks and partners',
+      description: 'Motivate agents to close more policies and loans',
       details:
-        'Motivate insurance agents, loan DSAs, and banking correspondents with performance-based rewards. Track lead generation and conversion.',
+        'Get insurance agents and DSAs to prioritize your products. Set clear targets, track applications, and reward agents who close deals faster.',
       icon: Wallet,
-      useCases: ['Agent incentive programs', 'DSA rewards', 'Partner engagement']
+      useCases: ['Agent sales targets', 'Lead generation incentives', 'Conversion rate bonuses']
     },
     {
       id: 7,
       name: 'Manufacturing & Industrial',
-      description: 'Strengthen B2B channel partnerships',
+      description: 'Increase orders from industrial dealers and distributors',
       details:
-        'Engage industrial dealers, distributors, and OEM partners with customized B2B loyalty programs. Drive consistent orders and long-term partnerships.',
+        'B2B sales cycles are long. Keep dealers engaged with quarterly targets and milestone-based rewards. Incentivize bulk orders and long-term partnerships.',
       icon: Factory,
-      useCases: ['Industrial dealer programs', 'OEM partnerships', 'Volume incentives']
+      useCases: ['Quarterly sales targets', 'Bulk order incentives', 'Partnership retention programs']
     },
     {
       id: 8,
       name: 'Technology & Software',
-      description: 'Grow reseller and partner networks',
+      description: 'Grow reseller sales and partner certifications',
       details:
-        'Motivate channel partners, resellers, and system integrators to sell and implement your solutions. Track certifications and project wins.',
+        'Motivate resellers to sell your software over competitors. Reward certifications, deal registrations, and closed sales. Track partner performance across regions.',
       icon: Lightbulb,
-      useCases: ['Reseller incentives', 'Certification rewards', 'Partner programs']
+      useCases: ['Reseller sales incentives', 'Certification rewards', 'Deal registration bonuses']
     }
   ];
 
@@ -148,36 +148,36 @@ const Industries = () => {
       <section className="section-padding" style={{ background: 'var(--bg-section)' }}>
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12">
-            <h2 className="heading-2 mb-4">Proven Track Record</h2>
+            <h2 className="heading-2 mb-4">Trusted by Manufacturers Across India</h2>
             <p className="body-large" style={{ color: 'var(--text-secondary)' }}>
-              Trusted by leading brands across industries
+              Real results from real companies
             </p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="heading-1 text-4xl mb-2" style={{ color: 'var(--accent-text)' }}>
-                500+
+                450+
               </div>
               <p className="body-medium">Active Programs</p>
             </div>
             <div className="text-center">
               <div className="heading-1 text-4xl mb-2" style={{ color: 'var(--accent-text)' }}>
-                2M+
+                1.8M+
               </div>
-              <p className="body-medium">Partner Network</p>
+              <p className="body-medium">Dealers & Distributors</p>
             </div>
             <div className="text-center">
               <div className="heading-1 text-4xl mb-2" style={{ color: 'var(--accent-text)' }}>
-                95%
+                92%
               </div>
               <p className="body-medium">Client Retention</p>
             </div>
             <div className="text-center">
               <div className="heading-1 text-4xl mb-2" style={{ color: 'var(--accent-text)' }}>
-                10+
+                8+
               </div>
-              <p className="body-medium">Years Experience</p>
+              <p className="body-medium">Years in Business</p>
             </div>
           </div>
         </div>
@@ -186,12 +186,12 @@ const Industries = () => {
       {/* CTA Section */}
       <section className="section-padding">
         <div className="container mx-auto text-center">
-          <h2 className="heading-2 mb-4">Your Industry, Our Expertise</h2>
+          <h2 className="heading-2 mb-4">See How It Works for Your Industry</h2>
           <p className="body-large mb-8 max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-            Let's discuss how we can help solve your specific industry challenges
+            Book a demo and we'll show you how other companies in your industry are using Smart Rewards
           </p>
           <Link to="/contact" className="btn-primary text-lg px-8">
-            Talk to an Expert
+            Book a Demo
             <ArrowRight size={20} className="ml-2" />
           </Link>
         </div>

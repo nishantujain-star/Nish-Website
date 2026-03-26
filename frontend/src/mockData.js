@@ -10,8 +10,8 @@ export const navigationLinks = [
 ];
 
 export const heroData = {
-  title: 'Transform Your Dealer Network Into a High-Performing Sales Engine',
-  subtitle: 'Drive distributor sales growth with intelligent loyalty and incentive programs designed for modern Indian businesses',
+  title: 'Get Your Dealers to Sell More. Consistently.',
+  subtitle: 'Reward dealers and distributors for hitting targets. Track their performance in real-time. Increase sales without increasing your field team.',
   ctaPrimary: 'Book a Demo',
   ctaSecondary: 'Learn More'
 };
@@ -19,11 +19,11 @@ export const heroData = {
 export const problemSolution = {
   problem: {
     title: 'The Challenge',
-    description: 'Dealers and distributors lack motivation, leading to inconsistent sales performance, poor brand loyalty, and missed revenue opportunities.'
+    description: 'Your dealers are selling competitor products. Distributors miss targets. You have no visibility into who is performing and who is not.'
   },
   solution: {
     title: 'Our Solution',
-    description: 'Smart Rewards provides comprehensive loyalty and incentive platforms that engage your entire channel network, drive consistent performance, and build lasting partnerships.'
+    description: 'Give dealers a reason to prioritize your brand. Set clear targets, track progress, and reward performance from one platform.'
   }
 };
 
@@ -31,19 +31,19 @@ export const solutionsOverview = [
   {
     id: 1,
     title: 'Dealer Loyalty Programs',
-    description: 'Reward and retain your dealer network with customized loyalty schemes that drive sales and strengthen relationships.',
+    description: 'Make dealers choose your brand over competitors. Reward them for hitting monthly targets and watch sales increase.',
     icon: 'store'
   },
   {
     id: 2,
-    title: 'Channel Loyalty Programs',
-    description: 'Engage distributors, wholesalers, and retailers with targeted incentives that align with your business goals.',
+    title: 'Channel Partner Programs',
+    description: 'Get distributors and retailers to push your products. Track their orders and reward top performers automatically.',
     icon: 'network'
   },
   {
     id: 3,
-    title: 'Sales Incentive Programs',
-    description: 'Motivate your sales teams and channel partners with performance-based rewards that deliver measurable results.',
+    title: 'Sales Team Incentives',
+    description: 'Stop manual incentive calculations. Set targets, track achievement, and reward your field team instantly.',
     icon: 'trophy'
   }
 ];
@@ -52,56 +52,56 @@ export const industriesServed = [
   {
     id: 1,
     name: 'Automotive',
-    description: 'Drive dealer performance and service excellence'
+    description: 'Increase vehicle sales and spare parts orders from dealers'
   },
   {
     id: 2,
     name: 'Consumer Electronics',
-    description: 'Boost retail sales and product launches'
+    description: 'Get retailers to display and sell more of your products'
   },
   {
     id: 3,
     name: 'FMCG & Consumer Goods',
-    description: 'Increase distributor reach and market penetration'
+    description: 'Grow distributor orders and expand into new markets'
   },
   {
     id: 4,
     name: 'Building Materials',
-    description: 'Engage contractors and dealer networks'
+    description: 'Influence contractor specifications and dealer purchases'
   },
   {
     id: 5,
     name: 'Pharmaceuticals',
-    description: 'Enhance chemist and distributor loyalty'
+    description: 'Drive chemist recommendations and stockist orders'
   },
   {
     id: 6,
     name: 'Financial Services',
-    description: 'Incentivize agent networks and partners'
+    description: 'Motivate agents to close more policies and loans'
   }
 ];
 
 export const testimonials = [
   {
     id: 1,
-    company: 'Leading Automotive Brand',
-    quote: 'Smart Rewards helped us increase dealer engagement by 45% and boost sales by 32% within the first year.',
+    company: 'Leading Auto Parts Manufacturer',
+    quote: 'Our dealers were pushing competitor brands. Within 6 months of launching the program, our share of their sales went from 30% to 48%.',
     author: 'National Sales Head',
     industry: 'Automotive'
   },
   {
     id: 2,
-    company: 'Consumer Electronics Giant',
-    quote: 'The platform is intuitive and our retailers love the rewards catalog. We have seen significant improvement in product push.',
-    author: 'Channel Marketing Manager',
+    company: 'Consumer Durables Company',
+    quote: 'We used to rely on manual Excel sheets to track retailer performance. Now we see everything in real-time and rewards are processed instantly.',
+    author: 'Channel Sales Manager',
     industry: 'Electronics'
   },
   {
     id: 3,
-    company: 'FMCG Major',
-    quote: 'Implementation was seamless and the analytics dashboard gives us real-time visibility into distributor performance.',
-    author: 'VP Sales & Distribution',
-    industry: 'FMCG'
+    company: 'Paint Manufacturer',
+    quote: 'Contractors were recommending other brands. We started rewarding them for specifying our products. Our project-based sales doubled in one year.',
+    author: 'Sales Director',
+    industry: 'Building Materials'
   }
 ];
 
@@ -109,53 +109,53 @@ export const solutionsDetailed = [
   {
     id: 1,
     title: 'Dealer Loyalty Programs',
-    forWhom: 'Manufacturers and brands with dealer networks',
-    problem: 'Dealers are overwhelmed with multiple brand programs and lack motivation to prioritize your products',
-    solution: 'Create engaging, personalized loyalty programs with point-based rewards, exclusive benefits, and recognition schemes that keep your brand top-of-mind',
+    forWhom: 'Manufacturers selling through dealer networks',
+    problem: 'Your dealers stock multiple brands. When a customer walks in, they recommend whoever gave them the best deal last month or whoever they like more.',
+    solution: 'Run monthly contests. Reward dealers who hit targets. Make them want to sell your products first. Track everything from one dashboard.',
     benefits: [
-      'Increase dealer engagement and product push',
-      'Build long-term partnerships with key dealers',
-      'Gain valuable insights into dealer behavior',
-      'Drive consistent sales performance'
+      'Dealers prioritize your brand over competitors',
+      'Increase monthly orders from existing dealers',
+      'See which dealers are performing and which need support',
+      'Reduce dependence on price discounts'
     ]
   },
   {
     id: 2,
-    title: 'Channel Loyalty Programs',
-    forWhom: 'Businesses with multi-tier distribution networks',
-    problem: 'Managing incentives across distributors, wholesalers, and retailers is complex and inefficient',
-    solution: 'Unified platform to design tier-specific programs, track performance across the channel, and deliver rewards seamlessly',
+    title: 'Channel Partner Programs',
+    forWhom: 'Companies with distributors, wholesalers, and retailer networks',
+    problem: 'You have 200+ distributors. Some do well, some do not. You are not sure why. Tracking performance manually takes weeks, and by then it is too late to fix issues.',
+    solution: 'Set different targets for each distributor tier. Track orders in real-time. Reward top performers automatically. Identify underperformers before month-end.',
     benefits: [
-      'Streamline incentive management across channels',
-      'Increase distribution reach and coverage',
-      'Improve channel partner satisfaction',
-      'Real-time visibility into channel performance'
+      'See real-time sales data across your entire network',
+      'Reward distributors based on actual performance',
+      'Identify and fix underperformance early',
+      'Launch promotions and track results instantly'
     ]
   },
   {
     id: 3,
-    title: 'Sales Incentive Programs',
-    forWhom: 'Companies with field sales teams and sales partners',
-    problem: 'Traditional incentive schemes are static, lack transparency, and fail to motivate consistent performance',
-    solution: 'Dynamic incentive programs with gamification, instant rewards, and transparent tracking that drive measurable results',
+    title: 'Sales Team Incentives',
+    forWhom: 'Businesses with field sales teams and channel sales managers',
+    problem: 'Your sales team waits 45 days to know their incentives. Calculations are done in Excel. Disputes happen every month. Nobody trusts the numbers.',
+    solution: 'Define targets once. System calculates incentives automatically. Sales reps see their earnings in real-time. Payouts happen on time, every time.',
     benefits: [
-      'Boost sales team motivation and performance',
-      'Reduce payout discrepancies and disputes',
-      'Launch targeted campaigns quickly',
-      'Track ROI on every incentive rupee spent'
+      'Eliminate manual incentive calculations and errors',
+      'Sales teams see earnings updated daily',
+      'Run short-term campaigns without extra effort',
+      'Reduce disputes and build trust'
     ]
   },
   {
     id: 4,
     title: 'Influencer & Contractor Programs',
-    forWhom: 'Industries where influencers impact buying decisions (construction, interiors, etc.)',
-    problem: 'Contractors, architects, and influencers recommend competitor products due to lack of engagement',
-    solution: 'Specialized programs to register, track, and reward influencers who drive product specifications and recommendations',
+    forWhom: 'Building materials, paints, plumbing, electrical, and interior brands',
+    problem: 'Contractors and architects decide which brand gets used in projects. But you have no way to track who is recommending you or reward them for it.',
+    solution: 'Let contractors register and submit project details. Verify and reward them when your products are specified. Build long-term relationships with key influencers.',
     benefits: [
-      'Capture influencer mindshare',
-      'Track project-based recommendations',
-      'Build advocacy among key decision-makers',
-      'Increase product specifications and pull-through'
+      'Turn contractors into brand advocates',
+      'Track project-based product specifications',
+      'Reward influencers who drive bulk orders',
+      'Increase market share in project segments'
     ]
   }
 ];
@@ -164,83 +164,83 @@ export const programsDetailed = [
   {
     id: 1,
     title: 'Loyalty Platform',
-    description: 'Comprehensive digital platform to design, launch, and manage loyalty programs',
+    description: 'Everything you need to run dealer and distributor programs',
     capabilities: [
-      'Multi-tier program structures',
-      'Point-based reward systems',
-      'Member enrollment and management',
-      'Mobile and web access for participants',
-      'Automated communications and notifications',
-      'Integration with existing business systems'
+      'Set different targets for different dealer tiers',
+      'Dealers earn points for hitting targets',
+      'Automatic enrollment - dealers sign up in 2 minutes',
+      'Works on mobile and desktop',
+      'Sends automated target reminders via SMS and email',
+      'Integrates with your existing billing system'
     ]
   },
   {
     id: 2,
     title: 'Rewards & Redemption',
-    description: 'Extensive catalog and flexible redemption options to delight your partners',
+    description: 'Give dealers rewards they actually want',
     capabilities: [
-      'Curated rewards catalog with 10,000+ options',
-      'Gift vouchers, merchandise, experiences',
-      'Digital rewards and instant gratification',
-      'Custom rewards based on business needs',
-      'Seamless redemption experience',
-      'Real-time reward fulfillment tracking'
+      '10,000+ reward options - Amazon vouchers, electronics, appliances',
+      'Gift cards dealers can use immediately',
+      'Physical products delivered to their doorstep',
+      'Trip and experience rewards for top performers',
+      'Custom rewards like additional credit or discounts',
+      'Dealers redeem in under 60 seconds'
     ]
   },
   {
     id: 3,
     title: 'Campaign Management',
-    description: 'Launch targeted campaigns to drive specific business objectives',
+    description: 'Launch promotions without depending on IT or agencies',
     capabilities: [
-      'Product-specific push campaigns',
-      'Seasonal and festival promotions',
-      'New launch incentives',
-      'Regional and segment-based campaigns',
-      'Automated campaign workflows',
-      'Performance tracking and optimization'
+      'Push specific products with bonus points',
+      'Run festival or seasonal sales campaigns',
+      'Reward early adopters for new product launches',
+      'Target campaigns by region or dealer segment',
+      'Launch a campaign in under 10 minutes',
+      'Track campaign performance in real-time'
     ]
   },
   {
     id: 4,
     title: 'Analytics & Reporting',
-    description: 'Powerful insights to measure program effectiveness and ROI',
+    description: 'Know exactly what is working and what is not',
     capabilities: [
-      'Real-time dashboards and reports',
-      'Program participation metrics',
-      'Sales uplift analysis',
-      'Partner engagement scores',
-      'Budget tracking and forecasting',
-      'Custom reports for stakeholders'
+      'See total sales, top dealers, and program ROI on one screen',
+      'Track how many dealers are active vs inactive',
+      'Measure sales increase after launching the program',
+      'Identify underperforming regions and dealers',
+      'Download reports for monthly reviews',
+      'Share dashboards with your sales team'
     ]
   }
 ];
 
 export const aboutData = {
-  mission: 'To empower Indian businesses with world-class loyalty and incentive solutions that drive sustainable growth',
-  story: 'Smart Rewards was founded with a vision to transform how businesses engage with their dealer and distributor networks. We understand the unique challenges of the Indian market and have built solutions that are simple, effective, and deliver measurable results.',
+  mission: 'Help Indian manufacturers sell more through their dealer and distributor networks',
+  story: 'Most loyalty programs are built for e-commerce. We built ours specifically for B2B companies with dealer networks. Over the past 8 years, we have helped manufacturers increase dealer sales, reduce channel conflicts, and stop losing business to competitors.',
   values: [
     {
-      title: 'Customer Success',
-      description: 'Your success is our success. We partner with you for the long term.'
+      title: 'Built for India',
+      description: 'We understand how Indian dealer networks work - from Tier 1 cities to small towns.'
     },
     {
-      title: 'Innovation',
-      description: 'We constantly innovate to deliver cutting-edge solutions.'
+      title: 'Easy to Use',
+      description: 'No complicated training. Dealers start using the platform in under 5 minutes.'
     },
     {
-      title: 'Integrity',
-      description: 'We operate with transparency and highest ethical standards.'
+      title: 'Reliable Support',
+      description: 'You get a dedicated account manager. We respond to issues within 4 hours.'
     },
     {
-      title: 'Excellence',
-      description: 'We are committed to delivering exceptional quality in everything we do.'
+      title: 'Results-Focused',
+      description: 'We measure success by one thing: did your sales increase?'
     }
   ],
   stats: [
-    { label: 'Active Programs', value: '500+' },
-    { label: 'Partner Network', value: '2M+' },
-    { label: 'Client Retention', value: '95%' },
-    { label: 'Years of Excellence', value: '10+' }
+    { label: 'Active Programs', value: '450+' },
+    { label: 'Dealers & Distributors', value: '1.8M+' },
+    { label: 'Client Retention', value: '92%' },
+    { label: 'Years in Business', value: '8+' }
   ]
 };
 

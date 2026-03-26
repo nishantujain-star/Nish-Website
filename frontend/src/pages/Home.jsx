@@ -64,9 +64,9 @@ const Home = () => {
       <section className="section-padding" style={{ background: 'var(--bg-section)' }}>
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="heading-2 mb-4">Our Solutions</h2>
+            <h2 className="heading-2 mb-4">Built for Indian B2B Companies</h2>
             <p className="body-large max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-              Comprehensive loyalty and incentive programs designed for every aspect of your channel network
+              Programs that work for dealer networks, not e-commerce stores
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -93,9 +93,9 @@ const Home = () => {
       <section className="section-padding">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="heading-2 mb-4">Industries We Serve</h2>
+            <h2 className="heading-2 mb-4">Works Across Industries</h2>
             <p className="body-large max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-              Proven expertise across diverse sectors in India
+              From automotive to FMCG—companies use Smart Rewards to increase dealer sales
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -134,9 +134,9 @@ const Home = () => {
       <section className="section-padding" style={{ background: 'var(--bg-section)' }}>
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="heading-2 mb-4">Trusted by Leading Brands</h2>
+            <h2 className="heading-2 mb-4">What Our Clients Say</h2>
             <p className="body-large max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-              See what our clients say about us
+              Real feedback from companies using Smart Rewards
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -170,12 +170,12 @@ const Home = () => {
             className="max-w-3xl mx-auto p-12 rounded-2xl"
             style={{ background: 'var(--accent-wash)', border: '2px solid var(--accent-primary)' }}
           >
-            <h2 className="heading-2 mb-4">Ready to Transform Your Dealer Network?</h2>
+            <h2 className="heading-2 mb-4">Want to Increase Dealer Sales?</h2>
             <p className="body-large mb-8" style={{ color: 'var(--text-secondary)' }}>
-              Schedule a demo to see how Smart Rewards can drive growth for your business
+              See how Smart Rewards works. Book a 30-minute demo—no commitment required.
             </p>
             <Link to="/contact" className="btn-primary text-lg px-8">
-              Book Your Demo Today
+              Book a Free Demo
               <ArrowRight size={20} className="ml-2" />
             </Link>
           </div>

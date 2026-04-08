@@ -217,7 +217,7 @@ export const programsDetailed = [
 
 export const aboutData = {
   mission: 'Help Indian manufacturers sell more through their dealer and distributor networks',
-  story: 'Most loyalty platforms are built for e-commerce and retail consumers. We built Smart Rewards specifically for B2B companies managing dealer and distributor networks across India. Over 8 years, we have helped manufacturers increase dealer sales, reduce reliance on discounts, and gain visibility into channel performance.',
+  story: 'Most loyalty platforms are built for e-commerce and retail consumers. We built Smart Loyalty specifically for B2B companies managing dealer and distributor networks across India. Over 8 years, we have helped manufacturers increase dealer sales, reduce reliance on discounts, and gain visibility into channel performance.',
   values: [
     {
       title: 'Built for India',
@@ -245,7 +245,7 @@ export const aboutData = {
 };
 
 export const contactInfo = {
-  email: 'contact@smartrewards.in',
+  email: 'contact@smartloyalty.in',
   phone: '+91 80 1234 5678',
   address: 'Bangalore, Karnataka, India'
 };

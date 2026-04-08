@@ -16,7 +16,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="hero-section min-h-[60vh]">
         <div className="container mx-auto max-w-4xl">
-          <h1 className="heading-1 mb-6">About Smart Rewards</h1>
+          <h1 className="heading-1 mb-6">About Smart Loyalty</h1>
           <p className="body-large" style={{ color: 'var(--text-secondary)' }}>
             {aboutData.mission}
           </p>

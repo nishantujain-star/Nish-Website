@@ -5,101 +5,82 @@ import { contactInfo, navigationLinks } from '../mockData';
 
 const Footer = () => {
   return (
-    <footer style={{ background: 'var(--bg-warm)', borderTop: '1px solid var(--border-light)' }}>
-      <div className="container mx-auto py-16 px-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="footer-premium">
+      <div className="container mx-auto px-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Company Info */}
           <div>
-            <h3 className="heading-3 mb-4 text-xl">Smart Rewards</h3>
-            <p className="body-small mb-4">
-              Empowering Indian businesses with world-class loyalty and incentive solutions.
+            <h3 className="heading-3 mb-4 text-xl font-bold">Smart Loyalty</h3>
+            <p className="body-small mb-4 leading-relaxed">
+              Helping Indian manufacturers sell more through their dealer and distributor networks.
             </p>
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h4 className="font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
-              Quick Links
-            </h4>
-            <ul className="space-y-2">
+          <div className="footer-column">
+            <h4>Quick Links</h4>
+            <div className="space-y-1">
               {navigationLinks.map((link) => (
-                <li key={link.path}>
-                  <Link to={link.path} className="body-small hover:text-green-600 transition-colors">
-                    {link.name}
-                  </Link>
-                </li>
+                <Link key={link.path} to={link.path} className="footer-link">
+                  {link.name}
+                </Link>
               ))}
-            </ul>
+            </div>
           </div>
 
           {/* Solutions */}
-          <div>
-            <h4 className="font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
-              Solutions
-            </h4>
-            <ul className="space-y-2">
-              <li>
-                <Link to="/solutions" className="body-small hover:text-green-600 transition-colors">
-                  Dealer Loyalty
-                </Link>
-              </li>
-              <li>
-                <Link to="/solutions" className="body-small hover:text-green-600 transition-colors">
-                  Channel Programs
-                </Link>
-              </li>
-              <li>
-                <Link to="/solutions" className="body-small hover:text-green-600 transition-colors">
-                  Sales Incentives
-                </Link>
-              </li>
-              <li>
-                <Link to="/programs" className="body-small hover:text-green-600 transition-colors">
-                  Loyalty Platform
-                </Link>
-              </li>
-            </ul>
+          <div className="footer-column">
+            <h4>Solutions</h4>
+            <div className="space-y-1">
+              <Link to="/solutions" className="footer-link">
+                Dealer Loyalty
+              </Link>
+              <Link to="/solutions" className="footer-link">
+                Channel Programs
+              </Link>
+              <Link to="/solutions" className="footer-link">
+                Sales Incentives
+              </Link>
+              <Link to="/programs" className="footer-link">
+                Loyalty Platform
+              </Link>
+            </div>
           </div>
 
           {/* Contact Info */}
-          <div>
-            <h4 className="font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
-              Contact Us
-            </h4>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2">
-                <Mail size={18} style={{ color: 'var(--accent-text)', marginTop: '2px' }} />
+          <div className="footer-column">
+            <h4>Contact Us</h4>
+            <div className="space-y-3">
+              <div className="flex items-start gap-2">
+                <Mail size={16} style={{ color: 'var(--brand-yellow)', marginTop: '3px', flexShrink: 0 }} />
                 <a
                   href={`mailto:${contactInfo.email}`}
-                  className="body-small hover:text-green-600 transition-colors"
+                  className="footer-link mb-0 hover:text-green-700"
                 >
                   {contactInfo.email}
                 </a>
-              </li>
-              <li className="flex items-start gap-2">
-                <Phone size={18} style={{ color: 'var(--accent-text)', marginTop: '2px' }} />
+              </div>
+              <div className="flex items-start gap-2">
+                <Phone size={16} style={{ color: 'var(--brand-yellow)', marginTop: '3px', flexShrink: 0 }} />
                 <a
                   href={`tel:${contactInfo.phone}`}
-                  className="body-small hover:text-green-600 transition-colors"
+                  className="footer-link mb-0 hover:text-green-700"
                 >
                   {contactInfo.phone}
                 </a>
-              </li>
-              <li className="flex items-start gap-2">
-                <MapPin size={18} style={{ color: 'var(--accent-text)', marginTop: '2px' }} />
+              </div>
+              <div className="flex items-start gap-2">
+                <MapPin size={16} style={{ color: 'var(--brand-yellow)', marginTop: '3px', flexShrink: 0 }} />
                 <span className="body-small">{contactInfo.address}</span>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div
-          className="mt-12 pt-8 text-center"
-          style={{ borderTop: '1px solid var(--border-light)' }}
-        >
+        <div className="footer-bottom">
           <p className="body-small">
-            © {new Date().getFullYear()} Smart Rewards. All rights reserved.
+            © {new Date().getFullYear()} Smart Loyalty. All rights reserved.
           </p>
         </div>
       </div>

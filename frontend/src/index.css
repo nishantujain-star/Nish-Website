@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Smart Rewards Design System - Brand Colors */
+/* Import Modern Geometric Font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap');
+
+/* Smart Loyalty Design System - Brand Colors */
 :root {
   /* Brand Colors */
   --brand-green: #0E4D3C;
@@ -14,6 +17,7 @@
   --bg-card: #FFFFFF;
   --bg-section: #FAFAFA;
   --bg-warm: #FFFBF5;
+  --bg-footer: #FAF7F2;
   
   /* Text - Professional Hierarchy */
   --text-primary: #0E4D3C;
@@ -64,11 +68,12 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-family: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--bg-page);
   color: var(--text-body);
+  font-weight: 400;
 }
 
 code {
@@ -95,68 +100,69 @@ code {
   }
 }
 
-/* Typography System */
+/* Typography System - Modern & Clean */
 .heading-1 { 
-  font-family: system-ui, sans-serif; 
+  font-family: 'Lexend', sans-serif; 
+  font-weight: 800; 
+  font-size: clamp(2.75rem, 5.5vw, 5rem); 
+  line-height: 1.05; 
+  letter-spacing: -0.03em; 
+  color: var(--text-primary);
+}
+
+.heading-2 { 
+  font-family: 'Lexend', sans-serif; 
   font-weight: 700; 
-  font-size: clamp(2.5rem, 5vw, 4.5rem); 
+  font-size: clamp(2.25rem, 4.5vw, 3.5rem); 
   line-height: 1.1; 
   letter-spacing: -0.02em; 
   color: var(--text-primary);
 }
 
-.heading-2 { 
-  font-family: system-ui, sans-serif; 
-  font-weight: 700; 
-  font-size: clamp(2rem, 4vw, 3rem); 
-  line-height: 1.15; 
+.heading-3 { 
+  font-family: 'Lexend', sans-serif; 
+  font-weight: 600; 
+  font-size: clamp(1.375rem, 3vw, 1.75rem); 
+  line-height: 1.25; 
   letter-spacing: -0.015em; 
   color: var(--text-primary);
 }
 
-.heading-3 { 
-  font-family: system-ui, sans-serif; 
-  font-weight: 600; 
-  font-size: clamp(1.25rem, 3vw, 1.5rem); 
-  line-height: 1.3; 
-  letter-spacing: -0.01em; 
-  color: var(--text-primary);
-}
-
 .body-large { 
-  font-family: system-ui, sans-serif; 
+  font-family: 'Lexend', sans-serif; 
   font-weight: 400; 
-  font-size: clamp(1.125rem, 2.5vw, 1.25rem); 
-  line-height: 1.6; 
+  font-size: clamp(1.125rem, 2.5vw, 1.3rem); 
+  line-height: 1.65; 
   color: var(--text-body); 
 }
 
 .body-medium { 
-  font-family: system-ui, sans-serif; 
+  font-family: 'Lexend', sans-serif; 
   font-weight: 400; 
   font-size: clamp(1rem, 2vw, 1.125rem); 
-  line-height: 1.6; 
+  line-height: 1.65; 
   color: var(--text-body); 
 }
 
 .body-small { 
-  font-family: system-ui, sans-serif; 
+  font-family: 'Lexend', sans-serif; 
   font-weight: 400; 
-  font-size: 0.875rem; 
-  line-height: 1.5; 
+  font-size: 0.9375rem; 
+  line-height: 1.6; 
   color: var(--text-secondary); 
 }
 
 .caption { 
-  font-family: system-ui, sans-serif; 
+  font-family: 'Lexend', sans-serif; 
   font-weight: 400; 
-  font-size: 0.75rem; 
-  line-height: 1.4; 
+  font-size: 0.8125rem; 
+  line-height: 1.5; 
   color: var(--text-muted); 
 }
 
 /* Brand Highlight */
 .text-highlight {
   color: var(--brand-yellow);
-  font-weight: 700;
+  font-weight: 800;
 }
+

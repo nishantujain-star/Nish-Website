@@ -1,8 +1,8 @@
-/* Component Styles for Smart Rewards */
+/* Component Styles for Smart Loyalty */
 
 /* Logo Styling */
 .logo {
-  height: 52px;
+  height: 56px;
   width: auto;
   display: block;
   transition: opacity 0.2s ease;
@@ -19,7 +19,7 @@
   border: none;
   border-radius: 9999px;
   padding: 16px 32px;
-  font-family: system-ui, sans-serif;
+  font-family: 'Lexend', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
@@ -35,8 +35,9 @@
 
 .btn-header {
   padding: 12px 28px;
-  min-height: 44px;
+  min-height: 46px;
   font-size: 0.9375rem;
+  font-weight: 600;
 }
 
 .btn-primary:hover {
@@ -55,7 +56,7 @@
   border: 2px solid var(--border-medium);
   border-radius: 9999px;
   padding: 14px 30px;
-  font-family: system-ui, sans-serif;
+  font-family: 'Lexend', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
@@ -88,8 +89,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1.5rem;
-  height: 72px;
+  padding: 1rem 2rem;
+  height: 76px;
   background: rgba(255, 255, 255, 0.98);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -100,7 +101,7 @@
 .nav-link {
   color: var(--text-secondary);
   text-decoration: none;
-  font-family: system-ui, sans-serif;
+  font-family: 'Lexend', sans-serif;
   font-size: 0.9375rem;
   font-weight: 500;
   padding: 10px 16px;
@@ -153,13 +154,13 @@
 /* Hero Section - More Compact */
 .hero-section {
   background: linear-gradient(135deg, rgba(244, 196, 48, 0.03) 0%, rgba(255, 255, 255, 1) 50%, rgba(14, 77, 60, 0.02) 100%);
-  min-height: 85vh;
+  min-height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   text-align: center;
-  padding: 9rem 1.5rem 4rem;
+  padding: 8rem 1.5rem 3.5rem;
   margin-top: -1px;
 }
 
@@ -172,9 +173,10 @@
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
   letter-spacing: 0.01em;
   box-shadow: 0 2px 8px rgba(244, 196, 48, 0.2);
+  font-family: 'Lexend', sans-serif;
 }
 
 /* Layout Utilities */
@@ -193,10 +195,47 @@
   color: var(--brand-yellow);
 }
 
+/* Footer Styles */
+.footer-premium {
+  background: var(--bg-footer);
+  border-top: 1px solid var(--border-light);
+  padding: 3.5rem 0 2rem;
+}
+
+.footer-column h4 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.footer-link {
+  font-family: 'Lexend', sans-serif;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  transition: color 0.2s ease;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link:hover {
+  color: var(--text-primary);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border-light);
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .logo {
-    height: 40px;
+    height: 44px;
   }
 
   .nav-header {
@@ -205,8 +244,8 @@
   }
   
   .hero-section {
-    padding: 6rem 1rem 3rem;
-    min-height: 80vh;
+    padding: 5.5rem 1rem 2.5rem;
+    min-height: 70vh;
   }
   
   .btn-primary,
@@ -227,7 +266,11 @@
   .badge {
     font-size: 0.8125rem;
     padding: 6px 16px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .footer-premium {
+    padding: 2.5rem 0 1.5rem;
   }
 }
 
@@ -241,7 +284,6 @@
   }
 
   .nav-header {
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
   }
 }
-

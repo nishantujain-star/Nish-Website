@@ -66,7 +66,7 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="heading-2 mb-4">Built for Indian B2B Companies</h2>
             <p className="body-large max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-              Programs that work for dealer networks, not e-commerce stores
+              Works for dealer networks across India—from Mumbai to Ludhiana
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">

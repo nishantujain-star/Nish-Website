@@ -11,7 +11,7 @@ const Solutions = () => {
         <div className="container mx-auto max-w-4xl">
           <h1 className="heading-1 mb-6">Programs That Increase Dealer Sales</h1>
           <p className="body-large" style={{ color: 'var(--text-secondary)' }}>
-            Whether you sell through dealers, distributors, or sales agents—we have a program that works for you
+            Whether you sell through 50 dealers or 500 distributors—choose the program that fits your network
           </p>
         </div>
       </section>

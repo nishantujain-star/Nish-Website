@@ -11,7 +11,7 @@ export const navigationLinks = [
 
 export const heroData = {
   title: 'Get Your Dealers to Sell More. Consistently.',
-  subtitle: 'Reward dealers and distributors for hitting targets. Track their performance in real-time. Increase sales without increasing your field team.',
+  subtitle: 'Set monthly targets. Track dealer orders in real-time. Reward top performers automatically. Built for Indian companies managing 50+ dealer networks.',
   ctaPrimary: 'Book a Demo',
   ctaSecondary: 'Learn More'
 };
@@ -19,11 +19,11 @@ export const heroData = {
 export const problemSolution = {
   problem: {
     title: 'The Challenge',
-    description: 'Your dealers are selling competitor products. Distributors miss targets. You have no visibility into who is performing and who is not.'
+    description: 'Dealers order irregularly. They push competitor products first. You find out about missed targets 30 days too late.'
   },
   solution: {
     title: 'Our Solution',
-    description: 'Give dealers a reason to prioritize your brand. Set clear targets, track progress, and reward performance from one platform.'
+    description: 'Reward dealers who hit monthly targets. Track daily orders. See underperformance before month-end and fix it.'
   }
 };
 
@@ -31,19 +31,19 @@ export const solutionsOverview = [
   {
     id: 1,
     title: 'Dealer Loyalty Programs',
-    description: 'Make dealers choose your brand over competitors. Reward them for hitting monthly targets and watch sales increase.',
+    description: 'Increase dealer ordering frequency and product push. Dealers who hit monthly targets earn rewards—they sell your brand first.',
     icon: 'store'
   },
   {
     id: 2,
     title: 'Channel Partner Programs',
-    description: 'Get distributors and retailers to push your products. Track their orders and reward top performers automatically.',
+    description: 'Track distributor orders daily. Reward high performers. Identify slow movers within 7 days and take action.',
     icon: 'network'
   },
   {
     id: 3,
     title: 'Sales Team Incentives',
-    description: 'Stop manual incentive calculations. Set targets, track achievement, and reward your field team instantly.',
+    description: 'End Excel-based incentive disputes. Sales reps see their earnings update daily. Payouts happen on time, every month.',
     icon: 'trophy'
   }
 ];
@@ -110,52 +110,52 @@ export const solutionsDetailed = [
     id: 1,
     title: 'Dealer Loyalty Programs',
     forWhom: 'Manufacturers selling through dealer networks',
-    problem: 'Your dealers stock multiple brands. When a customer walks in, they recommend whoever gave them the best deal last month or whoever they like more.',
-    solution: 'Run monthly contests. Reward dealers who hit targets. Make them want to sell your products first. Track everything from one dashboard.',
+    problem: 'Your dealers stock 5 competing brands. When customers ask, dealers recommend whoever pays the highest margin or whoever they bought from last. Your brand gets pushed only when you offer discounts.',
+    solution: 'Run monthly sales contests. Dealers earn points when they hit volume targets. Top performers get rewards. Suddenly, your brand becomes their first recommendation.',
     benefits: [
-      'Dealers prioritize your brand over competitors',
-      'Increase monthly orders from existing dealers',
-      'See which dealers are performing and which need support',
-      'Reduce dependence on price discounts'
+      'Dealers order more frequently—weekly instead of monthly',
+      'New product launches succeed faster',
+      'You see which dealers need support vs which need bigger targets',
+      'Sales growth without increasing discounts'
     ]
   },
   {
     id: 2,
     title: 'Channel Partner Programs',
     forWhom: 'Companies with distributors, wholesalers, and retailer networks',
-    problem: 'You have 200+ distributors. Some do well, some do not. You are not sure why. Tracking performance manually takes weeks, and by then it is too late to fix issues.',
-    solution: 'Set different targets for each distributor tier. Track orders in real-time. Reward top performers automatically. Identify underperformers before month-end.',
+    problem: 'You manage 200 distributors across India. Some consistently hit targets. Most do not. You discover underperformance only during monthly reviews—too late to fix.',
+    solution: 'Set tier-based targets. Track orders as they happen. Reward strong performers instantly. Flag underperformers within 7 days so your sales team can intervene.',
     benefits: [
-      'See real-time sales data across your entire network',
-      'Reward distributors based on actual performance',
-      'Identify and fix underperformance early',
-      'Launch promotions and track results instantly'
+      'Catch and fix slow sales before month-end',
+      'Increase average order value per distributor',
+      'Launch region-specific campaigns in under 10 minutes',
+      'Know exactly which distributors drive revenue and which do not'
     ]
   },
   {
     id: 3,
     title: 'Sales Team Incentives',
     forWhom: 'Businesses with field sales teams and channel sales managers',
-    problem: 'Your sales team waits 45 days to know their incentives. Calculations are done in Excel. Disputes happen every month. Nobody trusts the numbers.',
-    solution: 'Define targets once. System calculates incentives automatically. Sales reps see their earnings in real-time. Payouts happen on time, every time.',
+    problem: 'Your sales team waits 45 days to see incentive payouts. Calculations happen in Excel. Errors trigger disputes. Half your team does not trust the numbers.',
+    solution: 'Set targets once in the system. Incentives calculate automatically as sales happen. Reps log in and see updated earnings. No disputes. Payouts process on time.',
     benefits: [
-      'Eliminate manual incentive calculations and errors',
-      'Sales teams see earnings updated daily',
-      'Run short-term campaigns without extra effort',
-      'Reduce disputes and build trust'
+      'Zero manual calculation errors',
+      'Sales reps trust the system—motivation increases',
+      'Launch short-term product push campaigns without IT help',
+      'Cut incentive processing time from 10 days to 1 day'
     ]
   },
   {
     id: 4,
     title: 'Influencer & Contractor Programs',
     forWhom: 'Building materials, paints, plumbing, electrical, and interior brands',
-    problem: 'Contractors and architects decide which brand gets used in projects. But you have no way to track who is recommending you or reward them for it.',
-    solution: 'Let contractors register and submit project details. Verify and reward them when your products are specified. Build long-term relationships with key influencers.',
+    problem: 'Contractors decide which cement, paint, or tiles go into projects worth lakhs. But you have no systematic way to track which contractor specifies your brand—or reward them when they do.',
+    solution: 'Contractors register online, submit project photos showing your product installed. You verify and reward them. They start specifying your brand in future projects.',
     benefits: [
-      'Turn contractors into brand advocates',
-      'Track project-based product specifications',
-      'Reward influencers who drive bulk orders',
-      'Increase market share in project segments'
+      'Convert contractors into repeat brand advocates',
+      'Track project wins by region and contractor',
+      'Drive bulk orders through specification instead of dealer push',
+      'Build long-term relationships with high-value influencers'
     ]
   }
 ];
@@ -164,76 +164,76 @@ export const programsDetailed = [
   {
     id: 1,
     title: 'Loyalty Platform',
-    description: 'Everything you need to run dealer and distributor programs',
+    description: 'Set targets, enroll dealers, track performance—launch in one week',
     capabilities: [
-      'Set different targets for different dealer tiers',
-      'Dealers earn points for hitting targets',
-      'Automatic enrollment - dealers sign up in 2 minutes',
-      'Works on mobile and desktop',
-      'Sends automated target reminders via SMS and email',
-      'Integrates with your existing billing system'
+      'Set different targets by dealer tier or region',
+      'Dealers sign up in 2 minutes using mobile number',
+      'Automatic SMS alerts when dealers hit milestones',
+      'Works on any smartphone—no app download needed',
+      'Sync with your billing system to track real orders',
+      'See active vs inactive dealers at a glance'
     ]
   },
   {
     id: 2,
     title: 'Rewards & Redemption',
-    description: 'Give dealers rewards they actually want',
+    description: 'Offer rewards dealers actually want—delivered to their doorstep',
     capabilities: [
-      '10,000+ reward options - Amazon vouchers, electronics, appliances',
-      'Gift cards dealers can use immediately',
-      'Physical products delivered to their doorstep',
-      'Trip and experience rewards for top performers',
-      'Custom rewards like additional credit or discounts',
-      'Dealers redeem in under 60 seconds'
+      '10,000+ options: Amazon vouchers, electronics, gold coins',
+      'Instant digital rewards—redeemed in 60 seconds',
+      'Physical gifts shipped directly to dealer address',
+      'Premium rewards for top performers: trips, bikes, TVs',
+      'Custom corporate rewards: extra credit, bulk discounts',
+      'Dealers check reward catalog anytime from their phone'
     ]
   },
   {
     id: 3,
     title: 'Campaign Management',
-    description: 'Launch promotions without depending on IT or agencies',
+    description: 'Launch product push campaigns without IT or agency help',
     capabilities: [
-      'Push specific products with bonus points',
-      'Run festival or seasonal sales campaigns',
-      'Reward early adopters for new product launches',
-      'Target campaigns by region or dealer segment',
-      'Launch a campaign in under 10 minutes',
-      'Track campaign performance in real-time'
+      'Push slow-moving products with double points',
+      'Run Diwali or year-end sales campaigns in 10 minutes',
+      'Reward first 50 dealers who order new launches',
+      'Target specific regions or dealer segments',
+      'Track campaign impact on sales immediately',
+      'No coding required—anyone on your team can do it'
     ]
   },
   {
     id: 4,
     title: 'Analytics & Reporting',
-    description: 'Know exactly what is working and what is not',
+    description: 'Know which dealers drive sales and which need attention',
     capabilities: [
-      'See total sales, top dealers, and program ROI on one screen',
-      'Track how many dealers are active vs inactive',
-      'Measure sales increase after launching the program',
-      'Identify underperforming regions and dealers',
-      'Download reports for monthly reviews',
-      'Share dashboards with your sales team'
+      'Dashboard shows total sales, active dealers, ROI in one view',
+      'Identify dealers who have not ordered in 30+ days',
+      'Measure sales lift after launching the loyalty program',
+      'Compare performance across regions and products',
+      'Download monthly reports for leadership reviews',
+      'Share real-time dashboards with regional sales managers'
     ]
   }
 ];
 
 export const aboutData = {
   mission: 'Help Indian manufacturers sell more through their dealer and distributor networks',
-  story: 'Most loyalty programs are built for e-commerce. We built ours specifically for B2B companies with dealer networks. Over the past 8 years, we have helped manufacturers increase dealer sales, reduce channel conflicts, and stop losing business to competitors.',
+  story: 'Most loyalty platforms are built for e-commerce and retail consumers. We built Smart Rewards specifically for B2B companies managing dealer and distributor networks across India. Over 8 years, we have helped manufacturers increase dealer sales, reduce reliance on discounts, and gain visibility into channel performance.',
   values: [
     {
       title: 'Built for India',
-      description: 'We understand how Indian dealer networks work - from Tier 1 cities to small towns.'
+      description: 'Works across metros, Tier 2 cities, and small towns. Dealers sign up using just their mobile number.'
     },
     {
       title: 'Easy to Use',
-      description: 'No complicated training. Dealers start using the platform in under 5 minutes.'
+      description: 'Your dealers start using it in 5 minutes. Your team launches programs in one week, not three months.'
     },
     {
       title: 'Reliable Support',
-      description: 'You get a dedicated account manager. We respond to issues within 4 hours.'
+      description: 'Dedicated account manager. Phone support in Hindi and English. We respond within 4 hours.'
     },
     {
       title: 'Results-Focused',
-      description: 'We measure success by one thing: did your sales increase?'
+      description: 'We measure success by dealer sales increase, not feature lists.'
     }
   ],
   stats: [

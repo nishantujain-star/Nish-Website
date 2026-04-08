@@ -19,7 +19,7 @@ const Industries = () => {
       name: 'Automotive',
       description: 'Increase vehicle sales and spare parts orders from dealers',
       details:
-        'Get dealers to sell more cars and recommend genuine spare parts. Run monthly sales contests. Reward dealers who achieve targets and service advisors who increase parts sales.',
+        'Reward dealers who achieve monthly vehicle sales targets. Push genuine spare parts sales through service advisors. Track which dealers need inventory support vs which need higher targets.',
       icon: Car,
       useCases: ['Vehicle sales targets', 'Genuine parts push', 'Service retention programs']
     },
@@ -28,7 +28,7 @@ const Industries = () => {
       name: 'Consumer Electronics',
       description: 'Get retailers to display and sell more of your products',
       details:
-        'Stop losing shelf space to competitors. Reward retailers for displaying your products prominently and pushing new launches. Track sales and reward performance in real-time.',
+        'Retailers have limited shelf space. Reward them for prominent product displays and hitting monthly sales targets. Launch new products faster by incentivizing early adopters.',
       icon: Smartphone,
       useCases: ['Retail display incentives', 'New product launch rewards', 'Sales target programs']
     },
@@ -37,7 +37,7 @@ const Industries = () => {
       name: 'FMCG & Consumer Goods',
       description: 'Grow distributor orders and expand into new markets',
       details:
-        'Increase distributor orders month-on-month. Reward them for expanding into new towns and achieving volume targets. Track secondary sales and incentivize repeat orders.',
+        'Increase order frequency from existing distributors. Reward them for expanding distribution to new towns. Track secondary sales to ensure products actually move off shelves.',
       icon: ShoppingCart,
       useCases: ['Volume growth incentives', 'New market expansion rewards', 'Repeat order bonuses']
     },
@@ -46,7 +46,7 @@ const Industries = () => {
       name: 'Building Materials',
       description: 'Influence contractor specifications and dealer purchases',
       details:
-        'Get contractors to specify your brand in projects. Track which contractor recommended your product and reward them. Increase dealer sales through contractor influence.',
+        'Contractors specify which cement, steel, or tiles get used in projects. Track contractor recommendations. Reward them when they specify your brand. Increase dealer offtake simultaneously.',
       icon: Home,
       useCases: ['Contractor specification programs', 'Dealer offtake incentives', 'Project tracking rewards']
     },
@@ -55,7 +55,7 @@ const Industries = () => {
       name: 'Pharmaceuticals',
       description: 'Drive chemist recommendations and stockist orders',
       details:
-        'Make chemists recommend your brand over generics. Reward stockists for maintaining inventory levels and achieving distribution targets across their territory.',
+        'Reward chemists who recommend your brand over generics. Incentivize stockists to maintain inventory levels and achieve monthly distribution targets across their territory.',
       icon: Pill,
       useCases: ['Chemist recommendation programs', 'Stockist volume incentives', 'Territory expansion rewards']
     },
@@ -64,7 +64,7 @@ const Industries = () => {
       name: 'Financial Services',
       description: 'Motivate agents to close more policies and loans',
       details:
-        'Get insurance agents and DSAs to prioritize your products. Set clear targets, track applications, and reward agents who close deals faster.',
+        'Insurance agents and DSAs juggle multiple companies. Make yours their priority. Set clear monthly targets, track applications and closures, reward fast converters.',
       icon: Wallet,
       useCases: ['Agent sales targets', 'Lead generation incentives', 'Conversion rate bonuses']
     },
@@ -73,7 +73,7 @@ const Industries = () => {
       name: 'Manufacturing & Industrial',
       description: 'Increase orders from industrial dealers and distributors',
       details:
-        'B2B sales cycles are long. Keep dealers engaged with quarterly targets and milestone-based rewards. Incentivize bulk orders and long-term partnerships.',
+        'B2B industrial sales cycles are long. Keep dealers engaged with quarterly targets and milestone rewards. Incentivize bulk orders and reward long-term partnerships.',
       icon: Factory,
       useCases: ['Quarterly sales targets', 'Bulk order incentives', 'Partnership retention programs']
     },
@@ -82,7 +82,7 @@ const Industries = () => {
       name: 'Technology & Software',
       description: 'Grow reseller sales and partner certifications',
       details:
-        'Motivate resellers to sell your software over competitors. Reward certifications, deal registrations, and closed sales. Track partner performance across regions.',
+        'Resellers sell competing software solutions. Motivate them to prioritize yours. Reward certifications, deal registrations, and closed sales. Track regional partner performance.',
       icon: Lightbulb,
       useCases: ['Reseller sales incentives', 'Certification rewards', 'Deal registration bonuses']
     }

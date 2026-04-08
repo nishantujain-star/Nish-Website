@@ -22,7 +22,7 @@ const Programs = () => {
         <div className="container mx-auto max-w-4xl">
           <h1 className="heading-1 mb-6">One Platform. Everything You Need.</h1>
           <p className="body-large" style={{ color: 'var(--text-secondary)' }}>
-            Set targets. Track sales. Reward dealers. Run campaigns. See results—all in one place.
+            Set targets. Track orders. Reward dealers. Launch campaigns. See ROI—all from one dashboard.
           </p>
         </div>
       </section>

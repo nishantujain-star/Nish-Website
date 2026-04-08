@@ -16,13 +16,15 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <span className="heading-3 text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>
-            Smart Rewards
-          </span>
+          <img 
+            src="https://customer-assets.emergentagent.com/job_smart-rewards-6/artifacts/ykb845io_Logo%203%20HD.png" 
+            alt="Smart Loyalty" 
+            className="logo"
+          />
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden md:flex items-center gap-2">
           {navigationLinks.map((link) => (
             <Link
               key={link.path}
@@ -36,7 +38,7 @@ const Header = () => {
 
         {/* Desktop CTA */}
         <div className="hidden md:block">
-          <Link to="/contact" className="btn-primary">
+          <Link to="/contact" className="btn-primary btn-header">
             Book a Demo
           </Link>
         </div>
@@ -57,7 +59,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-gray-200 shadow-lg">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b shadow-lg" style={{ borderColor: 'var(--border-light)' }}>
           <nav className="flex flex-col p-4">
             {navigationLinks.map((link) => (
               <Link

@@ -26,13 +26,13 @@ const Home = () => {
       <section className="hero-section">
         <div className="container mx-auto max-w-4xl">
           <div className="badge">Trusted by 450+ Indian Manufacturers</div>
-          <h1 className="heading-1 mb-6">
+          <h1 className="heading-1 mb-5">
             Get Your Dealers to <span className="text-highlight">Sell More.</span> Consistently.
           </h1>
-          <p className="body-large mb-8" style={{ color: 'var(--text-secondary)' }}>
+          <p className="body-large mb-7 max-w-3xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
             Set monthly targets. Track dealer orders in real-time. Reward top performers automatically. Built for Indian companies managing 50+ dealer networks.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
             <Link to="/contact" className="btn-primary">
               {heroData.ctaPrimary}
               <ArrowRight size={20} className="ml-2" />

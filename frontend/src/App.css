@@ -2,7 +2,7 @@
 
 /* Logo Styling */
 .logo {
-  height: 42px;
+  height: 52px;
   width: auto;
   display: block;
   transition: opacity 0.2s ease;
@@ -196,7 +196,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .logo {
-    height: 36px;
+    height: 40px;
   }
 
   .nav-header {

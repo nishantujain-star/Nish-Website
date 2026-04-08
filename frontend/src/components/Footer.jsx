@@ -5,8 +5,8 @@ import { contactInfo, navigationLinks } from '../mockData';
 
 const Footer = () => {
   return (
-    <footer style={{ background: 'var(--bg-section)', borderTop: '1px solid var(--border-light)' }}>
-      <div className="container mx-auto py-12 px-6">
+    <footer style={{ background: 'var(--bg-warm)', borderTop: '1px solid var(--border-light)' }}>
+      <div className="container mx-auto py-16 px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>

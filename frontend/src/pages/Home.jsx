@@ -17,7 +17,7 @@ const Home = () => {
       trophy: Trophy
     };
     const IconComponent = icons[iconName] || Store;
-    return <IconComponent size={32} style={{ color: 'var(--accent-text)' }} />;
+    return <IconComponent size={36} className="icon-accent" />;
   };
 
   return (
@@ -25,9 +25,12 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="container mx-auto max-w-4xl">
-          <h1 className="heading-1 mb-6">{heroData.title}</h1>
+          <div className="badge">Trusted by 450+ Indian Manufacturers</div>
+          <h1 className="heading-1 mb-6">
+            Get Your Dealers to <span className="text-highlight">Sell More.</span> Consistently.
+          </h1>
           <p className="body-large mb-8" style={{ color: 'var(--text-secondary)' }}>
-            {heroData.subtitle}
+            Set monthly targets. Track dealer orders in real-time. Reward top performers automatically. Built for Indian companies managing 50+ dealer networks.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to="/contact" className="btn-primary">
@@ -44,14 +47,14 @@ const Home = () => {
       {/* Problem & Solution Section */}
       <section className="section-padding" style={{ background: 'var(--bg-page)' }}>
         <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-            <div className="p-8 rounded-lg" style={{ background: 'var(--bg-section)' }}>
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="p-10 rounded-2xl" style={{ background: 'var(--bg-section)', border: '1px solid var(--border-light)' }}>
               <h2 className="heading-3 mb-4">{problemSolution.problem.title}</h2>
               <p className="body-medium">{problemSolution.problem.description}</p>
             </div>
             <div
-              className="p-8 rounded-lg"
-              style={{ background: 'var(--accent-wash)', border: '1px solid var(--accent-primary)' }}
+              className="p-10 rounded-2xl"
+              style={{ background: 'var(--accent-wash)', border: '2px solid var(--accent-primary)' }}
             >
               <h2 className="heading-3 mb-4">{problemSolution.solution.title}</h2>
               <p className="body-medium">{problemSolution.solution.description}</p>
@@ -77,8 +80,8 @@ const Home = () => {
                 <p className="body-medium mb-4">{solution.description}</p>
                 <Link
                   to="/solutions"
-                  className="inline-flex items-center gap-2 font-medium"
-                  style={{ color: 'var(--accent-text)' }}
+                  className="inline-flex items-center gap-2 font-semibold"
+                  style={{ color: 'var(--brand-yellow)' }}
                 >
                   Learn More
                   <ArrowRight size={16} />

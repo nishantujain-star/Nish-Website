@@ -135,7 +135,7 @@ const About = () => {
         <div className="container mx-auto text-center">
           <h2 className="heading-2 mb-4">Ready to Get Started?</h2>
           <p className="body-large mb-8 max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-            Book a demo and see if Smart Rewards is right for your business
+            Book a demo and see if Smart Loyalty is right for your business
           </p>
           <Link to="/contact" className="btn-primary text-lg px-8">
             Book a Demo

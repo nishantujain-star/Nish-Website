@@ -26,16 +26,16 @@ const Home = () => {
       <section className="hero-section">
         <div className="container mx-auto max-w-4xl">
           <div className="badge">Trusted by 450+ Indian Manufacturers</div>
-          <h1 className="heading-1 mb-4">
+          <h1 className="heading-1 mb-3">
             Get Your Dealers to <span className="text-highlight">Sell More.</span> Consistently.
           </h1>
-          <p className="body-large mb-6 max-w-3xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
+          <p className="body-large mb-5 max-w-3xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
             Set monthly targets. Track dealer orders in real-time. Reward top performers automatically. Built for Indian companies managing 50+ dealer networks.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
             <Link to="/contact" className="btn-primary">
               {heroData.ctaPrimary}
-              <ArrowRight size={20} className="ml-2" />
+              <ArrowRight size={18} className="ml-2" />
             </Link>
             <Link to="/solutions" className="btn-secondary">
               {heroData.ctaSecondary}
@@ -98,7 +98,7 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="heading-2 mb-4">Works Across Industries</h2>
             <p className="body-large max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-              From automotive to FMCG—companies use Smart Rewards to increase dealer sales
+              From automotive to FMCG—companies use Smart Loyalty to increase dealer sales
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -139,7 +139,7 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="heading-2 mb-4">What Our Clients Say</h2>
             <p className="body-large max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-              Real feedback from companies using Smart Rewards
+              Real feedback from companies using Smart Loyalty
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -175,7 +175,7 @@ const Home = () => {
           >
             <h2 className="heading-2 mb-4">Want to Increase Dealer Sales?</h2>
             <p className="body-large mb-8" style={{ color: 'var(--text-secondary)' }}>
-              See how Smart Rewards works. Book a 30-minute demo—no commitment required.
+              See how Smart Loyalty works. Book a 30-minute demo—no commitment required.
             </p>
             <Link to="/contact" className="btn-primary text-lg px-8">
               Book a Free Demo

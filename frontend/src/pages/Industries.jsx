@@ -188,7 +188,7 @@ const Industries = () => {
         <div className="container mx-auto text-center">
           <h2 className="heading-2 mb-4">See How It Works for Your Industry</h2>
           <p className="body-large mb-8 max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-            Book a demo and we'll show you how other companies in your industry are using Smart Rewards
+            Book a demo and we'll show you how other companies in your industry are using Smart Loyalty
           </p>
           <Link to="/contact" className="btn-primary text-lg px-8">
             Book a Demo

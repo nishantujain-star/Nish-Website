@@ -77,7 +77,7 @@ const Programs = () => {
       <section className="section-padding" style={{ background: 'var(--bg-section)' }}>
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12">
-            <h2 className="heading-2 mb-4">Why Companies Choose Smart Rewards</h2>
+            <h2 className="heading-2 mb-4">Why Companies Choose Smart Loyalty</h2>
             <p className="body-large" style={{ color: 'var(--text-secondary)' }}>
               Simple to use. Built for India. Actually works.
             </p>

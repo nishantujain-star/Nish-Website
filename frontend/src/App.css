@@ -1,12 +1,14 @@
-/* Component Styles for Smart Loyalty - STRICT OVERRIDES */
+/* Component Styles for Smart Loyalty - FIXED HIERARCHY */
 
-/* Logo Styling - INCREASED SIZE */
+/* Logo Styling - PROPER SCALING */
 .logo {
-  height: 54px !important;
+  height: 44px !important;
   max-height: none !important;
-  width: auto;
+  min-height: 44px !important;
+  width: auto !important;
   display: block;
   transition: opacity 0.2s ease;
+  object-fit: contain !important;
 }
 
 .logo:hover {
@@ -80,7 +82,7 @@
   transform: translateY(0);
 }
 
-/* Navigation Styles - INCREASED HEADER HEIGHT */
+/* Navigation Styles - PROPER HEADER HEIGHT */
 .nav-header {
   position: fixed;
   top: 0;
@@ -90,8 +92,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.25rem 2rem !important;
-  height: 88px !important;
+  padding: 0 2.5rem !important;
+  height: 84px !important;
   background: rgba(255, 255, 255, 0.98);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -132,27 +134,27 @@
   border-radius: 2px;
 }
 
-/* Card Styles - REFINED */
+/* Card Styles - LIGHTER FEEL */
 .product-card {
   background: var(--bg-card);
-  border: 1px solid var(--border-medium) !important;
+  border: 1px solid var(--border-light) !important;
   border-radius: 14px !important;
-  padding: 26px !important;
+  padding: 28px !important;
   transition: all 0.3s ease;
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.06) !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04) !important;
   height: 100%;
 }
 
 .product-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(14, 77, 60, 0.14) !important;
+  box-shadow: 0 6px 18px rgba(14, 77, 60, 0.10) !important;
   border-color: var(--brand-yellow) !important;
 }
 
-/* Hero Section - COMPACT */
+/* Hero Section - KEEP AS IS */
 .hero-section {
   background: linear-gradient(135deg, rgba(244, 196, 48, 0.03) 0%, rgba(255, 255, 255, 1) 50%, rgba(14, 77, 60, 0.02) 100%);
   min-height: 65vh !important;
@@ -180,7 +182,7 @@
   font-family: 'Lexend', sans-serif;
 }
 
-/* Layout Utilities */
+/* Layout Utilities - INCREASED SPACING */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -188,7 +190,7 @@
 }
 
 .section-padding {
-  padding: 4rem 1.5rem !important;
+  padding: 5rem 1.5rem !important;
 }
 
 /* Icon Accent */
@@ -233,14 +235,26 @@
   text-align: center;
 }
 
+/* Grid Spacing - INCREASED */
+.grid-spacing {
+  gap: 2rem !important;
+}
+
+@media (min-width: 768px) {
+  .grid-spacing {
+    gap: 2.5rem !important;
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .logo {
-    height: 46px !important;
+    height: 38px !important;
+    min-height: 38px !important;
   }
 
   .nav-header {
-    padding: 1rem !important;
+    padding: 0 1rem !important;
     height: 72px !important;
   }
   
@@ -257,11 +271,11 @@
   }
   
   .section-padding {
-    padding: 2.5rem 1rem !important;
+    padding: 3rem 1rem !important;
   }
   
   .product-card {
-    padding: 20px !important;
+    padding: 22px !important;
   }
 
   .badge {
@@ -273,6 +287,10 @@
   .footer-premium {
     padding: 2.25rem 0 1.5rem !important;
   }
+
+  .grid-spacing {
+    gap: 1.5rem !important;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -281,10 +299,10 @@
   }
   
   .section-padding {
-    padding: 4.5rem 1.5rem !important;
+    padding: 5.5rem 1.5rem !important;
   }
 
   .nav-header {
-    padding: 1.25rem 2.5rem !important;
+    padding: 0 3rem !important;
   }
 }

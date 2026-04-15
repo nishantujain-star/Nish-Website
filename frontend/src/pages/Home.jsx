@@ -72,7 +72,7 @@ const Home = () => {
               Works for dealer networks across India—from Mumbai to Ludhiana
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 grid-spacing">
             {solutionsOverview.map((solution) => (
               <div key={solution.id} className="product-card">
                 <div className="mb-4">{getIcon(solution.icon)}</div>
@@ -142,7 +142,7 @@ const Home = () => {
               Real feedback from companies using Smart Loyalty
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 grid-spacing">
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}

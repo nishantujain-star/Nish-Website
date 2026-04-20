@@ -31,13 +31,16 @@ const Programs = () => {
       <section className="section-padding">
         <div className="container mx-auto max-w-6xl">
           <div className="space-y-12">
-            {programsDetailed.map((program, index) => (
-              <div
-                key={program.id}
-                className="product-card"
-                style={{ cursor: 'default' }}
-              >
-                <div className="grid md:grid-cols-12 gap-8 items-start">
+            {programsDetailed.map((program, index) => {
+              const sectionIds = ['loyalty-platform', 'rewards-redemption', 'campaign-management', 'analytics-reporting'];
+              return (
+                <div
+                  key={program.id}
+                  id={sectionIds[index]}
+                  className="product-card"
+                  style={{ cursor: 'default', scrollMarginTop: '100px' }}
+                >
+                  <div className="grid md:grid-cols-12 gap-8 items-start">
                   {/* Icon & Title */}
                   <div className="md:col-span-4">
                     <div className="mb-4">{getIcon(program.id)}</div>
@@ -68,7 +71,8 @@ const Programs = () => {
                   </div>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

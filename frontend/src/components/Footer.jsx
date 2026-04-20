@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <h3 className="heading-3 mb-4 text-xl font-bold">Smart Loyalty</h3>
             <p className="body-small mb-4 leading-relaxed">
-              Helping Indian manufacturers sell more through their dealer and distributor networks.
+              Helping Indian companies develop and expand Dealer and Distributor Loyalty.
             </p>
           </div>
 
@@ -21,7 +21,12 @@ const Footer = () => {
             <h4>Quick Links</h4>
             <div className="space-y-1">
               {navigationLinks.map((link) => (
-                <Link key={link.path} to={link.path} className="footer-link">
+                <Link 
+                  key={link.path} 
+                  to={link.path}
+                  className="footer-link"
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}
+                >
                   {link.name}
                 </Link>
               ))}
@@ -32,16 +37,44 @@ const Footer = () => {
           <div className="footer-column">
             <h4>Solutions</h4>
             <div className="space-y-1">
-              <Link to="/solutions" className="footer-link">
+              <Link 
+                to="/solutions#dealer-loyalty" 
+                className="footer-link"
+                onClick={() => setTimeout(() => {
+                  const element = document.getElementById('dealer-loyalty');
+                  if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 100)}
+              >
                 Dealer Loyalty
               </Link>
-              <Link to="/solutions" className="footer-link">
+              <Link 
+                to="/solutions#channel-programs" 
+                className="footer-link"
+                onClick={() => setTimeout(() => {
+                  const element = document.getElementById('channel-programs');
+                  if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 100)}
+              >
                 Channel Programs
               </Link>
-              <Link to="/solutions" className="footer-link">
+              <Link 
+                to="/solutions#sales-incentives" 
+                className="footer-link"
+                onClick={() => setTimeout(() => {
+                  const element = document.getElementById('sales-incentives');
+                  if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 100)}
+              >
                 Sales Incentives
               </Link>
-              <Link to="/programs" className="footer-link">
+              <Link 
+                to="/programs#loyalty-platform" 
+                className="footer-link"
+                onClick={() => setTimeout(() => {
+                  const element = document.getElementById('loyalty-platform');
+                  if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 100)}
+              >
                 Loyalty Platform
               </Link>
             </div>

@@ -2,9 +2,9 @@
 
 /* Logo Styling - PROPER SCALING */
 .logo {
-  height: 44px !important;
+  height: 60px !important;
   max-height: none !important;
-  min-height: 44px !important;
+  min-height: 60px !important;
   width: auto !important;
   display: block;
   transition: opacity 0.2s ease;

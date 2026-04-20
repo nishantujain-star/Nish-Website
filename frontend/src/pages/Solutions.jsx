@@ -20,16 +20,20 @@ const Solutions = () => {
       <section className="section-padding">
         <div className="container mx-auto max-w-6xl">
           <div className="space-y-16">
-            {solutionsDetailed.map((solution, index) => (
-              <div
-                key={solution.id}
-                className={`grid md:grid-cols-2 gap-12 items-start ${
-                  index % 2 === 1 ? 'md:flex-row-reverse' : ''
-                }`}
-              >
-                {/* Content */}
-                <div className={index % 2 === 1 ? 'md:order-2' : ''}>
-                  <h2 className="heading-2 mb-4">{solution.title}</h2>
+            {solutionsDetailed.map((solution, index) => {
+              const sectionIds = ['dealer-loyalty', 'channel-programs', 'sales-incentives', 'influencer-programs'];
+              return (
+                <div
+                  key={solution.id}
+                  id={sectionIds[index]}
+                  className={`grid md:grid-cols-2 gap-12 items-start ${
+                    index % 2 === 1 ? 'md:flex-row-reverse' : ''
+                  }`}
+                  style={{ scrollMarginTop: '100px' }}
+                >
+                  {/* Content */}
+                  <div className={index % 2 === 1 ? 'md:order-2' : ''}>
+                    <h2 className="heading-2 mb-4">{solution.title}</h2>
                   
                   <div className="space-y-6">
                     <div>
@@ -79,7 +83,8 @@ const Solutions = () => {
                   </div>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

@@ -82,6 +82,7 @@ const Home = () => {
                   to="/solutions"
                   className="inline-flex items-center gap-2 font-semibold"
                   style={{ color: 'var(--brand-yellow)' }}
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}
                 >
                   Learn More
                   <ArrowRight size={16} />
@@ -126,7 +127,11 @@ const Home = () => {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link to="/industries" className="btn-secondary">
+            <Link 
+              to="/industries" 
+              className="btn-secondary"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}
+            >
               View All Industries
             </Link>
           </div>

@@ -19,7 +19,7 @@ export const heroData = {
 export const problemSolution = {
   problem: {
     title: 'The Challenge',
-    description: 'Dealers order irregularly. They push competitor products first. You find out about missed targets 30 days too late.'
+    description: 'Distributors and dealers today handle an extensive portfolio of products, making mindshare and motivation critical to driving sales priority. Our smart loyalty program addresses this directly by rewarding distributors with points for selling our products—points they can redeem for high-value white goods. This creates a tangible incentive, aligning their motivation with our sales goals and ensuring our products stand out in an otherwise crowded portfolio.'
   },
   solution: {
     title: 'Our Solution',

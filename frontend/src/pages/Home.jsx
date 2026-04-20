@@ -69,7 +69,7 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="heading-2 mb-4">Built for Indian B2B Companies</h2>
             <p className="body-large max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-              Works for dealer networks across India—from Mumbai to Ludhiana
+              Designed for large, distributed dealer networks across India—from metros to Tier-2 and Tier-3 markets.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 grid-spacing">
@@ -183,7 +183,7 @@ const Home = () => {
               See how Smart Loyalty works. Book a 30-minute demo—no commitment required.
             </p>
             <Link to="/contact" className="btn-primary text-lg px-8">
-              Book a Free Demo
+              Book a 30-Minute Demo
               <ArrowRight size={20} className="ml-2" />
             </Link>
           </div>

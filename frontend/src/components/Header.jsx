@@ -30,6 +30,7 @@ const Header = () => {
               key={link.path}
               to={link.path}
               className={`nav-link ${isActive(link.path) ? 'active' : ''}`}
+              onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}
             >
               {link.name}
             </Link>
@@ -38,7 +39,11 @@ const Header = () => {
 
         {/* Desktop CTA */}
         <div className="hidden md:block">
-          <Link to="/contact" className="btn-primary btn-header">
+          <Link 
+            to="/contact" 
+            className="btn-primary btn-header"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}
+          >
             Book a Demo
           </Link>
         </div>

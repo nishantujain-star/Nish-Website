@@ -19,7 +19,7 @@ export const heroData = {
 export const problemSolution = {
   problem: {
     title: 'The Challenge',
-    description: 'Distributors and dealers today handle an extensive portfolio of products, making mindshare and motivation critical to driving sales priority. Our smart loyalty program addresses this directly by rewarding distributors with points for selling our products—points they can redeem for high-value white goods. This creates a tangible incentive, aligning their motivation with our sales goals and ensuring our products stand out in an otherwise crowded portfolio.'
+    description: 'Dealers order irregularly. They often push competitor products first. By the time you identify missed targets, it\'s already too late to act.'
   },
   solution: {
     title: 'Our Solution',

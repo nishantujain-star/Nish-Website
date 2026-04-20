@@ -9,11 +9,11 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Company Info */}
-          <div>
+          <div className="flex flex-col">
             <img 
               src="https://customer-assets.emergentagent.com/job_smart-rewards-6/artifacts/ykb845io_Logo%203%20HD.png" 
               alt="Smart Loyalty" 
-              className="footer-logo mb-4"
+              className="footer-logo"
             />
             <p className="body-small leading-relaxed" style={{ maxWidth: '280px' }}>
               Helping Indian companies develop and expand dealer and distributor Loyalty.

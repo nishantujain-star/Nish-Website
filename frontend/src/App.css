@@ -2,9 +2,9 @@
 
 /* Logo Styling - PROPER SCALING */
 .logo {
-  height: 60px !important;
+  height: 80px !important;
   max-height: none !important;
-  min-height: 60px !important;
+  min-height: 80px !important;
   width: auto !important;
   display: block;
   transition: opacity 0.2s ease;
@@ -206,9 +206,10 @@
 }
 
 .footer-logo {
-  height: 42px;
+  height: 70px;
   width: auto;
   display: block;
+  margin-bottom: 1rem;
 }
 
 .footer-column h4 {
@@ -255,8 +256,8 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .logo {
-    height: 38px !important;
-    min-height: 38px !important;
+    height: 50px !important;
+    min-height: 50px !important;
   }
 
   .nav-header {

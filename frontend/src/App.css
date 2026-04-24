@@ -2,11 +2,12 @@
 
 /* Logo Styling - PROPER SCALING */
 .logo {
-  height: 80px !important;
+  height: 130px !important;
   max-height: none !important;
-  min-height: 80px !important;
+  min-height: 130px !important;
   width: auto !important;
-  display: block;
+  max-width: none !important;
+  display: block !important;
   transition: opacity 0.2s ease;
   object-fit: contain !important;
 }
@@ -214,7 +215,6 @@
   display: block;
   margin-bottom: 1rem;
   object-fit: contain;
-  align-self: flex-start;
 }
 
 .footer-brand-name {

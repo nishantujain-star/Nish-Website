@@ -209,9 +209,19 @@
   height: 50px;
   width: auto;
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   object-fit: contain;
   align-self: flex-start;
+}
+
+.footer-brand-name {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--brand-green);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.875rem;
+  line-height: 1.2;
 }
 
 .footer-column h4 {

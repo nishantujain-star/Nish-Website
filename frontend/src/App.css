@@ -206,10 +206,10 @@
 }
 
 .footer-logo {
-  height: 50px;
+  height: 90px;
   width: auto;
   display: block;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   object-fit: contain;
   align-self: flex-start;
 }
@@ -268,8 +268,8 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .logo {
-    height: 50px !important;
-    min-height: 50px !important;
+    height: 55px !important;
+    min-height: 55px !important;
   }
 
   .nav-header {

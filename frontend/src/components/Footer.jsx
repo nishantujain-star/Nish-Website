@@ -15,7 +15,6 @@ const Footer = () => {
               alt="Smart Loyalty" 
               className="footer-logo"
             />
-            <h3 className="footer-brand-name">SMART LOYALTY</h3>
             <p className="body-small leading-relaxed" style={{ maxWidth: '280px' }}>
               Helping Indian companies develop and expand dealer and distributor Loyalty.
             </p>

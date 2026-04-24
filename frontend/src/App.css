@@ -93,7 +93,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 2.5rem !important;
-  height: 84px !important;
+  height: auto !important;
+  min-height: 100px !important;
   background: rgba(255, 255, 255, 0.98);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -206,8 +207,10 @@
 }
 
 .footer-logo {
-  height: 110px;
-  width: auto;
+  height: 140px !important;
+  max-height: none !important;
+  width: auto !important;
+  max-width: none !important;
   display: block;
   margin-bottom: 1rem;
   object-fit: contain;
@@ -268,13 +271,15 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .logo {
-    height: 55px !important;
-    min-height: 55px !important;
+    height: 65px !important;
+    min-height: 65px !important;
+    max-height: none !important;
   }
 
   .nav-header {
     padding: 0 1rem !important;
-    height: 72px !important;
+    height: auto !important;
+    min-height: 80px !important;
   }
   
   .hero-section {

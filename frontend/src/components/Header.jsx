@@ -17,7 +17,7 @@ const Header = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img 
-            src="https://customer-assets.emergentagent.com/job_smart-rewards-6/artifacts/ykb845io_Logo%203%20HD.png" 
+            src="https://customer-assets.emergentagent.com/job_smart-rewards-6/artifacts/lhz8pea6_Logo%203%20HD.png" 
             alt="Smart Loyalty" 
             className="logo"
           />

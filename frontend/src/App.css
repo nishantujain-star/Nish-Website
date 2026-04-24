@@ -206,10 +206,12 @@
 }
 
 .footer-logo {
-  height: 70px;
+  height: 50px;
   width: auto;
   display: block;
   margin-bottom: 1rem;
+  object-fit: contain;
+  align-self: flex-start;
 }
 
 .footer-column h4 {

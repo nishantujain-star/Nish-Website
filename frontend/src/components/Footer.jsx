@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Company Info */}
-          <div className="flex flex-col">
+          <div className="footer-column">
             <img 
               src="https://customer-assets.emergentagent.com/job_smart-rewards-6/artifacts/lhz8pea6_Logo%203%20HD.png" 
               alt="Smart Loyalty" 

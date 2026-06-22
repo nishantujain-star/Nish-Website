@@ -21,8 +21,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Mock submission - just show success message
-    console.log('Form submitted:', formData);
+    // Mock submission - show success message
     setSubmitted(true);
     
     // Reset form after 3 seconds

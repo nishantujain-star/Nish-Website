@@ -38,7 +38,7 @@ const About = () => {
         <div className="container mx-auto max-w-5xl">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {aboutData.stats.map((stat, index) => (
-              <div key={index} className="text-center">
+              <div key={`stat-${stat.label}`} className="text-center">
                 <div className="heading-1 text-4xl mb-2" style={{ color: 'var(--accent-text)' }}>
                   {stat.value}
                 </div>
@@ -64,7 +64,7 @@ const About = () => {
               const IconComponent = valueIcons[value.title] || Award;
               return (
                 <div
-                  key={index}
+                  key={`value-${value.title}`}
                   className="product-card"
                   style={{ cursor: 'default' }}
                 >

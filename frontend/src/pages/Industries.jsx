@@ -124,7 +124,7 @@ const Industries = () => {
                     <div className="flex flex-wrap gap-2">
                       {industry.useCases.map((useCase, idx) => (
                         <span
-                          key={idx}
+                          key={`${industry.id}-usecase-${idx}`}
                           className="px-3 py-1 rounded-full text-xs font-medium"
                           style={{
                             background: 'var(--accent-wash)',

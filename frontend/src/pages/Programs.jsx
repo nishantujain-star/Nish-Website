@@ -56,7 +56,7 @@ const Programs = () => {
                     <div className="grid sm:grid-cols-2 gap-4">
                       {program.capabilities.map((capability, idx) => (
                         <div
-                          key={idx}
+                          key={`${program.id}-capability-${idx}`}
                           className="flex items-start gap-3 p-4 rounded-lg"
                           style={{ background: 'var(--bg-section)' }}
                         >

@@ -71,7 +71,7 @@ const Solutions = () => {
                     <h3 className="heading-3 text-xl mb-6">Key Benefits</h3>
                     <ul className="space-y-4">
                       {solution.benefits.map((benefit, idx) => (
-                        <li key={idx} className="flex items-start gap-3">
+                        <li key={`${solution.id}-benefit-${idx}`} className="flex items-start gap-3">
                           <CheckCircle2
                             size={24}
                             style={{ color: 'var(--accent-text)', flexShrink: 0, marginTop: '2px' }}

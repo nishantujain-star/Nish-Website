@@ -89,12 +89,6 @@ if (isDevServer) {
   } catch (err) {
     if (err.code === 'MODULE_NOT_FOUND' && err.message.includes('@emergentbase/visual-edits/craco')) {
       // Visual editing disabled - module not installed
-      // Only log in development to avoid production noise
-      if (process.env.NODE_ENV === 'development') {
-        console.warn(
-          "[visual-edits] @emergentbase/visual-edits not installed — visual editing disabled."
-        );
-      }
     } else {
       throw err;
     }
